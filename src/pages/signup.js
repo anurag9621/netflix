@@ -9,7 +9,6 @@ import * as ROUTES from '../constants/routes';
 export default function SignUp() {
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
-
   const [firstName, setFirstName] = useState('');
   const [emailAddress, setEmailAddress] = useState('');
   const [password, setPassword] = useState('');
